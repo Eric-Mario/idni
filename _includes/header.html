@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+        <meta property="og:locale:alternate" content="en_EN" />
+        <meta charset="utf-8">
+        <title>Intelligent Devcenttrali Networks Initiatives (IDNI) - {{ page.title }}</title>
+        <link rel="stylesheet" href="{{site.url}}/css/boostrap.min.css">
+        <link rel="stylesheet" href="{{site.url}}/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{site.url}}/css/aos.css">
+        <link rel="stylesheet" href="{{site.url}}/css/video.css">
+        <link rel="stylesheet" href="{{site.url}}/css/styles.css">
+    </head>
+        <main id="{{page.nav}}" class="main-page">
+            <header id="header" class="container-fluid">
+                <div class="row header-background height-60">
+                    <div class="container rma" id="navigation">
+                        <div class="col-md-5 height-60">
+                            <div class="parent-block">
+                                <div class="child-block">
+                                    <a href="{{site.url}}"><img id="logo" alt="TAU-LOGO" src="{{site.url}}/assets/images/logo.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 nav-main">
+                           {% include nav.html %}
+                            <div class="dropdown-lang">
+                                <div class="dropdown">
+                                        <a id="dLabel" data-target="my-dropdown-lang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <img width="19" height="19" src="{{site.url}}/assets/images/global.png" alt="global-icon-lang" />
+                                            <span class="title-lang-default">English</span>
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul id="my-dropdown-lang" class="dropdown-menu" aria-labelledby="dLabel">
+                                            <li><a href="{{site.url}}">English</a></li>
+                                            <li><a href="{{site.url}}/cn">Chinese</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class="git-icon">
+                                <a target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a>
+                            </div>
+                        </div>
+                        <div id="menu-mobile-button">
+                            <ul>
+                                <li><a class="icon-git-nav" target="_blank" href="https://github.com/IDNI/tau"><img src="{{site.url}}/assets/images/git.png" alt="github-icon" /></a></li>
+                                <li><a id="navigation-mobile" href="javascript:void(0)" class="icon-nav"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                            <ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    <body>
